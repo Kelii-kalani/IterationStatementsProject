@@ -23,7 +23,7 @@ namespace IterationStatements
             do
             {
                 // Increment num by 1
-                num++;
+                ++num;
                 // Then add num to the collection - numbers
                 // Hint: reference num inside of the Add method's parentheses
                 numbers.Add(num);
@@ -33,12 +33,12 @@ namespace IterationStatements
 
 
             // Create a while loop
-            while (num < 100)// <--- While num is less than 200
+            while (num < 200)// <--- While num is less than 200
             {
                 // Increment num by 1
                 // Then add num to the collection numbers
                 //HINT: copy how this was done in the do while loop
-                num++;
+                ++num;
                 numbers.Add(num);
             }
 
@@ -67,7 +67,7 @@ namespace IterationStatements
             
             for (int i = 200; i <= numbers.Count && i >= 0; i--)//start for loop here
             {
-                Console.WriteLine(numbers[i]);// place numbers[i] inside of the Console.WriteLine() method
+                Console.WriteLine(i);// place numbers[i] inside of the Console.WriteLine() method
             }
 
             //------------End of exercise
