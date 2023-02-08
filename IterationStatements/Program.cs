@@ -23,7 +23,7 @@ namespace IterationStatements
             do
             {
                 // Increment num by 1
-                ++num;
+                num++;
                 // Then add num to the collection - numbers
                 // Hint: reference num inside of the Add method's parentheses
                 numbers.Add(num);
@@ -38,7 +38,7 @@ namespace IterationStatements
                 // Increment num by 1
                 // Then add num to the collection numbers
                 //HINT: copy how this was done in the do while loop
-                ++num;
+                num++;
                 numbers.Add(num);
             }
 
@@ -65,9 +65,9 @@ namespace IterationStatements
                 // AND as long as i is greater than or equal to 0
                 // Decrement i by 1
             
-            for (int i = 200; i <= numbers.Count && i >= 0; i--)//start for loop here
+            for (int i = 199; i <= numbers.Count && i >= 0; i--)//start for loop here
             {
-                Console.WriteLine(i);// place numbers[i] inside of the Console.WriteLine() method
+                Console.WriteLine(numbers[i]);// place numbers[i] inside of the Console.WriteLine() method
             }
 
             //------------End of exercise
